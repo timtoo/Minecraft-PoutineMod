@@ -16,7 +16,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 //import cpw.mods.fml.common.network.NetworkMod; // not used in 1.7
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid="PoutineModID", name="Poutine", version="0.0.1")
+@Mod(modid="PoutineModID", name="Poutine", version="0.1")
 //@NetworkMod(clientSideRequired=true) // not used in 1.7
 public class Poutine {
 	
