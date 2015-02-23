@@ -1,29 +1,34 @@
-# README #
+# PoutineMod #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A simple Forge-based mod to add the glories of poutine to Minecraft.
+The poutine is craftable, as are its ingredients.
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What's in the mod? ###
 
-### How do I get set up? ###
+* __Cheese Curds__ - *milk + vines* (vines might be a vegetable source of rennet right?)
+* __Gravy__ - *bowl + 2 brown mushrooms*
+* __Sliced Potatos__ - *2 potatos* (makes a good amount of fries?)
+* __Fries__ - *sliced potatos* cooked in an oven
+* __Poutine__ - *Fries*, covered in *Cheese Curds*, smothered in *Gravy*. Disgustingly good.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### How to try the mod? ###
 
-### Contribution guidelines ###
+A pre-build jar file should be available in the download area of the bitbucket respository,
+ready to be dropped in your Minecraft Forge mods folder.
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
+### How to use the source? ###
 
-* Repo owner or admin
-* Other community or team contact
+The source code provided is the everything under the "src" directory of an eclipse project
+set up as described by the Minecraft Forge documentation. It uses *gradle* to build the jar
+file.
+
+You will have to edit the *build.gradle* file with the following (or similar) information:
+
+    version = "1.7.10-0.1"
+    group= "ca.xxvii.minecraft.poutinemod"
+    archivesBaseName = "PoutineModID"
+
+
+
