@@ -7,9 +7,9 @@ The poutine is craftable, as are its ingredients.
 ### What's in the mod? ###
 
 * __Cheese Curds__ - *milk + vines* (vines might be a vegetable source of rennet right?)
-* __Gravy__ - *bowl + 2 brown mushrooms*
-* __Sliced Potatos__ - *2 potatos* (makes a good amount of fries?)
-* __Fries__ - *sliced potatos* cooked in an oven
+* __Gravy__ - *bowl + 2 brown mushrooms* (like mushroom stew, but browner)
+* __Sliced Potatos__ - *2 potatos* (makes a good amount of fries, hopefully)
+* __Fries__ - *sliced potatos* cooked in an oven (until deep friers are invented)
 * __Poutine__ - *Fries*, covered in *Cheese Curds*, smothered in *Gravy*. Disgustingly good.
 
 ### How to try the mod? ###
