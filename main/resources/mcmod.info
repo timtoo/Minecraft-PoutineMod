@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "PoutineModID",
+    "name": "Poutine Mod",
+    "description": "Adds delicious and calorific poutine to the Minecraft dining menu. Poutine is hot french fries covered with cheese curds covered with gravy. Cooked sliced potatoes make fries. Gravy is made from mushrooms in a bowl. Cheese curds results from milk strangely mixed with vines. Bon appetite!",
+    "version": "",
+    "mcversion": "1.7.10",
+    "url": "http://family.xxvii.net",
+    "updateUrl": "",
+    "authorList": [ "timtoo", "EmethAM", "IstraIM" ],
+    "credits": "Authored by Timoo",
+    "logoFile": "/assets/textures/items/poutine.png",
+    "screenshots": [ ],
+    "parent": "",
+    "requiredMods": [ ],
+    "dependencies": [ ],
+    "dependants": [ ],
+    "useDependencyInformation": false
+  }]
+}
