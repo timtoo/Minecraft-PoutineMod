@@ -26,7 +26,7 @@ file.
 
 You will have to edit the *build.gradle* file with the following (or similar) information:
 
-    version = "1.7.10-0.1"
+    version = "1.7.10-1.0"
     group= "ca.xxvii.minecraft.poutinemod"
     archivesBaseName = "PoutineModID"
 
