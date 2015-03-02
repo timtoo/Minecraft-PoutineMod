@@ -14,6 +14,19 @@ The poutine is craftable, as are its ingredients.
 
 Poutine is very filling.
 
+### Recipes ###
+
+![alt Crafting cheese curds](images/craft-cheese-curds.png "Crafting cheese curds")
+
+![alt Crafting gravy](images/craft-gravy.png "Crafting Gravy")
+
+![alt Crafting sliced potatos](images/craft-potato-slices.png "Crafting sliced potatoes")
+
+![alt Cooking fries](images/cook-fries.png "Cooking fries")
+
+![alt Crafting poutine](images/craft-poutine.png "Crafting poutine")
+
+
 ### How to try the mod? ###
 
 A pre-build jar file should be available in the download area of the bitbucket respository,
@@ -33,4 +46,5 @@ You will have to edit the *build.gradle* file with the following (or similar) in
     archivesBaseName = "PoutineModID"
 
 
+![alt Beautiful poutine](images/beautiful-poutine.png)
 
