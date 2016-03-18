@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "PoutineMod:items/cheese_curd2"
+        "layer0": "poutinemod:items/cheese_curd2"
     },
     "display": {
         "thirdperson": {

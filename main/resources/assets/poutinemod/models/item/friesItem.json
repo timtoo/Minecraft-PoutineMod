@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "PoutineMod:items/french_fries"
+        "layer0": "poutinemod:items/french_fries"
     },
     "display": {
         "thirdperson": {

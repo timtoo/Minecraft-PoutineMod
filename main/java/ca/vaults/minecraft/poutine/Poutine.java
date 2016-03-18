@@ -2,37 +2,33 @@ package ca.vaults.minecraft.poutine;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemSoup;
 import net.minecraft.item.ItemStack;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(modid=Poutine.MODID, version=Poutine.VERSION)
+@Mod(modid=Poutine.MODID, name=Poutine.MODNAME, version=Poutine.VERSION)
 public class Poutine {
 	
-		public static final String MODID = "PoutineMod";
+		public static final String MODID = "poutinemod";
+		public static final String MODNAME = "PoutineMod";
 		public static final String VERSION = "1.0";
 	
-//        public static Poutine instance;
-        
 	    public static ItemFood iCheeseCurd;
 	    public static ItemFood iFries;
 	    public static ItemSoup iGravy;
 	    public static ItemFood iPoutine;
 	    public static ItemFood iSlicedPotatoes;
-
-/*        // Says where the client and server 'proxy' code is loaded.
-        @SidedProxy(clientSide="ca.vaults.minecraft.poutine.client.ClientProxy", serverSide="ca.vaults.minecraft.poutine.CommonProxy")
-        public static CommonProxy proxy;
-*/
+	    
+	    //@Instance
+	    //public static Poutine instance = new Poutine();
 	    
         @EventHandler
-        public void createRecipes(FMLInitializationEvent event) {
+        public void createContent(FMLPreInitializationEvent event) {
         	
         	// Item instances to be used in recipes
         	iCheeseCurd = new CheeseCurdItem(3, 0.6F, false);
@@ -70,14 +66,4 @@ public class Poutine {
         	
         }
         
-/*        @EventHandler 
-        public void load(FMLInitializationEvent event) {
-                proxy.registerRenderers();
-        }
-*/
-        
- /*       @EventHandler 
-        public void postInit(FMLPostInitializationEvent event) {
-                // Stub Method
-        } */
 }

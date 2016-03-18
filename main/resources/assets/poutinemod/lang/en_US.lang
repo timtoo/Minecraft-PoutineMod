@@ -1,5 +1,5 @@
-item.cheese_curd.name=Cheese Curds
-item.fries.name=Fries
-item.gravy.name=Gravy
-item.poutine.name=Poutine
-item.sliced_potatoes.name=Sliced Potatoes
+item.poutinemod_cheeseCurdItem.name=Cheese Curds
+item.poutinemod_friesItem.name=Fries
+item.poutinemod_gravyItem.name=Gravy
+item.poutinemod_poutineItem.name=Poutine
+item.poutinemod_slicedPotatoesItem.name=Sliced Potatoes
