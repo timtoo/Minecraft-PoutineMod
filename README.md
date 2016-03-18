@@ -35,15 +35,8 @@ ready to be dropped in your Minecraft Forge mods folder.
 
 ### How to use the source? ###
 
-The source code provided is the everything under the "src" directory of an eclipse project
-set up as described by the Minecraft Forge documentation. It uses **gradle** to build the jar
-file.
+This information, with more detail, has been mooved to the USE-THE-FORCE.md file. Look there.
 
-You will have to edit the *build.gradle* file with the following (or similar) information:
-
-    version = "1.7.10-1.0"
-    group= "ca.xxvii.minecraft.poutinemod"
-    archivesBaseName = "PoutineModID"
 
 
 ![alt Beautiful poutine](images/beautiful-poutine.png)
