@@ -1,5 +1,5 @@
 How to use the source code:
---------------------------
+---------------------------
 
 
 1. Set up JDK, Forge and eclipse the default way, as described in this Wuppy's
@@ -12,13 +12,7 @@ How to use the source code:
 3. In eclipse, right click on MDKExample and select "Import..."
         - "Browse..." to find/select the minecraft-poutinemod folder that
           was cloned in step 2
-        - Click "Select All" or (more precisely) open the "minecraft-poutinemod"
-          tree that should have appeared, and click beside just "main" so a
-          checkmark appears. This is the only folder needed.
-        - "Into folder" MDKExample/src/
-        - Click "Advanced >>"
-        - Click "Create links in workspace" (so your source code clone
-          stays where it is, but is accessable in eclipse)
+        - Click "Select All"
         - Click "Finish"
         - Click "Yes" when asked to overwrite mcmod.info
         - You now should see "ca.vaults.minecraft.poutine" under
@@ -28,11 +22,6 @@ How to use the source code:
 
 5. You can delete com.example.examplemod package in exclipse, if you want to
 
-
-The above steps brings the minecraft-poutinemod source code into eclipse (into
-the MDKExample project) while leaving it physically in the place you cloned
-the repository. If you are going to use the version control, it should be done
-in this original location, to avoid confusion.
 
 The source code provided is the everything that would go under the "src" directory
 of a minecraft forge eclipse project set up as described by the Minecraft Forge
@@ -44,5 +33,15 @@ directory) with the following (or similar) information:
     version = "1.8.9-1.0"
     group= "ca.xxvii.minecraft.poutinemod"
     archivesBaseName = "PoutineMod"
+
+Notes
+-----
+
+I would have liked to link the course code (rather than physically copying it) into the
+eclipse project, or isolating it as a separate project, but I don't know enough about
+eclipse/gradle/mincraftforge to get this to work. When I tried linking (in the advanced
+settings of the import described above), the code worked, but textures were not accessable.
+When I tried setting up as a separate project I could not get the minecraft instance run
+from eclipse to recognize my mod at all.
 
 
