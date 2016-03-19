@@ -37,6 +37,10 @@ directory) with the following (or similar) information:
 Notes
 -----
 
+After importing the source code, you should delete the originally cloned repository to
+avoid confusion, as a full copy of it has been transfered to under your Minecraft Forge
+eclipse workspace. If you modify the code, modify it there.
+
 I would have liked to link the course code (rather than physically copying it) into the
 eclipse project, or isolating it as a separate project, but I don't know enough about
 eclipse/gradle/mincraftforge to get this to work. When I tried linking (in the advanced
