@@ -29,7 +29,7 @@ Poutine is very filling.
 
 ### How to try the mod? ###
 
-A pre-build jar file should be available in the download area of the bitbucket respository,
+A pre-build jar file should be available in the download area of the [bitbucket respository](https://bitbucket.org/timtoo/minecraft-poutinemod),
 ready to be dropped in your Minecraft Forge mods folder.
 
 
