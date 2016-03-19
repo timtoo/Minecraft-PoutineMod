@@ -39,5 +39,5 @@ This information, with more detail, has been mooved to the USE-THE-FORCE.md file
 
 
 
-![alt Beautiful poutine](images/beautiful-poutine.png)
+![alt Beautiful poutine](images/beautiful_poutine.png)
 
